@@ -56,7 +56,6 @@ h6 {
     font-size: 0.25em;
 }
 
-/* Encabezado y pie */
 
 /* esp a=2; b=0; c=0; esp = 002*/
 header li,
@@ -82,7 +81,6 @@ footer ul {
 }
 
 
-/*Enlaces*/
 
 /* esp a=1; b=1; c=0; esp = 011*/
 a:link {
@@ -104,7 +102,6 @@ footer a:visited {
 }
 
 
-/*listas*/
 /* esp a=3; b=0; c=0; esp = 003*/
 main ul li {
     display: block;
@@ -167,6 +164,7 @@ main img {
     max-width: 100%;
 }
 
+/* esp a=1; b=0; c=1; esp = 101*/
 #primerfigure img {
     max-height: 40%;
     max-width: 40%;
@@ -215,32 +213,34 @@ main {
 }
 
 
-/*Tablas*/
 /* esp a=1; b=0; c=0; esp = 001*/
 table {
     font-family: "Trebuchet MS", sans-serif;
     text-align: left;
     margin: auto;
     color: #373737;
+    background-color: transparent;
     font-size: 1.2em;
     width: 100%;
     max-width: 100%;
 }
 
+/* esp a=0; b=1; c=0; esp = 010*/
 .columnaNombre {
     width: 15%;
     text-align: left;
 }
 
+/* esp a=0; b=1; c=0; esp = 010*/
 .columnaDescripcion {
     width: 85%;
 }
 
+/* esp a=2; b=0; c=0; esp = 002*/
 table th {
     text-align: left;
 }
 
-/*Parrafos*/
 /* esp a=1; b=0; c=0; esp = 001*/
 p {
     text-align: justify;
@@ -270,15 +270,42 @@ div#mapa {
     display: inline-block;
 }
 
-
+/* esp a=0; b=1; c=0; esp = 010*/
 .negrita {
     font-weight: bold;
 }
 
-
+/* esp a=1; b=0; c=0; esp = 001*/
 blockquote {
     white-space: normal;
     font-size: 1.1em;
     font-family: "Trebuchet MS", sans-serif;
     color: #373737;
+    background-color: transparent;
+}
+
+/* esp a=2; b=0; c=1; esp = 102*/
+form#sForm input {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 0.7em;
+}
+
+/* esp a=2; b=0; c=1; esp = 102*/
+form#lForm input {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 0.7em;
+}
+
+/* esp a=2; b=0; c=1; esp = 102*/
+form#aForm input,
+form#aForm div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 0.7em;
+    margin-top: 0.7em;
 }
