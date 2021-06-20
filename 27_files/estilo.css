@@ -1,0 +1,284 @@
+/*Cabeceras */
+/* esp a=1; b=0; c=0; esp = 001*/
+h1,
+h2,
+h3,
+h5,
+h6 {
+    font-family: "Gill Sans", sans-serif;
+    font-weight: bold;
+    font-size-adjust: 0.5;
+    color: #FFFFFF;
+    letter-spacing: 0.2em;
+    background-color: #373737;
+    text-align: center;
+}
+
+/* esp a=1; b=0; c=0; esp = 001*/
+h1 {
+    font-size: 4.5em;
+    border-style: hidden;
+    border-radius: 0.5em;
+}
+
+/* esp a=1; b=0; c=0; esp = 001*/
+h2,
+h3,
+h5,
+h6 {
+    border-style: outset;
+}
+
+/* esp a=1; b=0; c=0; esp = 001*/
+h2 {
+    font-size: 3em;
+}
+
+/* esp a=1; b=0; c=0; esp = 001*/
+h3 {
+    font-size: 2em;
+}
+
+/* esp a=1; b=0; c=0; esp = 001*/
+h4 {
+    font-size: 1.5em;
+    text-align: center;
+
+}
+
+/* esp a=1; b=0; c=0; esp = 001*/
+h5 {
+    font-size: 0.50em;
+}
+
+/* esp a=1; b=0; c=0; esp = 001*/
+h6 {
+    font-size: 0.25em;
+}
+
+/* Encabezado y pie */
+
+/* esp a=2; b=0; c=0; esp = 002*/
+header li,
+footer li {
+    display: inline-block;
+    padding: 0.5em 10em 0.5em 10em;
+    font-size: 1.5em;
+    font-family: "Gill sans", sans-serif;
+}
+
+/* esp a=2; b=0; c=0; esp = 002*/
+aside li {
+    display: flex;
+    padding: 1em 0em 1em 0em;
+}
+
+
+/* esp a=2; b=0; c=0; esp = 002*/
+header ul,
+footer ul {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/*Enlaces*/
+
+/* esp a=1; b=1; c=0; esp = 011*/
+a:link {
+    color: #373737;
+    background-color: transparent;
+    text-decoration: inherit;
+}
+
+/* esp a=2; b=1; c=0; esp = 012*/
+nav a:visited {
+    color: #373737;
+    background-color: transparent;
+}
+
+/* esp a=2; b=1; c=0; esp = 012*/
+footer a:visited {
+    color: black;
+    background-color: transparent;
+}
+
+
+/*listas*/
+/* esp a=3; b=0; c=0; esp = 003*/
+main ul li {
+    display: block;
+    font-size: 1.2em;
+    font-family: "Trebuchet MS", sans-serif;
+    color: #373737;
+    background-color: transparent;
+
+
+}
+
+/* esp a=3; b=0; c=0; esp = 003*/
+aside ul li {
+    display: block;
+    font-size: 1.2em;
+    font-family: "Trebuchet MS", sans-serif;
+    color: #373737;
+    background-color: transparent;
+
+
+}
+
+
+
+/* esp a=4; b=0; c=0; esp = 004*/
+main ul li::first-letter {
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+/* esp a=4; b=0; c=0; esp = 004*/
+main ul li img {
+    height: 20em;
+    margin-top: 3%;
+    color: transparent;
+    background-color: #373737;
+}
+
+/*Multimedia*/
+
+/* esp a=2; b=0; c=0; esp = 002*/
+main video {
+    border: 1em solid #373737;
+    border-radius: 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    max-width: 70%;
+}
+
+/* esp a=2; b=0; c=0; esp = 002*/
+main img {
+    border: 1em solid #373737;
+    border-radius: 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    max-width: 100%;
+}
+
+#primerfigure img {
+    max-height: 40%;
+    max-width: 40%;
+}
+
+/* esp a=2; b=0; c=0; esp = 002*/
+main audio {
+    border: 1em solid #373737;
+    border-radius: 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: auto;*/
+    max-width: 100%;
+}
+
+
+/* esp a=2; b=0; c=0; esp = 002*/
+main figcaption {
+    font-size: 0.9em;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+/*Principal*/
+/* esp a=1; b=0; c=0; esp = 001*/
+html {
+    background-color: #C8C9C3;
+    color: transparent;
+}
+
+/* esp a=1; b=0; c=0; esp = 001*/
+body,
+footer,
+header {
+    background-color: #C8C9C3;
+    color: black;
+}
+
+/* esp a=1; b=0; c=0; esp = 001*/
+main {
+    background-image: linear-gradient(#C8C9C3, white);
+}
+
+
+/*Tablas*/
+/* esp a=1; b=0; c=0; esp = 001*/
+table {
+    font-family: "Trebuchet MS", sans-serif;
+    text-align: left;
+    margin: auto;
+    color: #373737;
+    font-size: 1.2em;
+    width: 100%;
+    max-width: 100%;
+}
+
+.columnaNombre {
+    width: 15%;
+    text-align: left;
+}
+
+.columnaDescripcion {
+    width: 85%;
+}
+
+table th {
+    text-align: left;
+}
+
+/*Parrafos*/
+/* esp a=1; b=0; c=0; esp = 001*/
+p {
+    text-align: justify;
+    white-space: normal;
+    font-size: 1.2em;
+    font-family: "Trebuchet MS", sans-serif;
+    color: #373737;
+    background-color: transparent;
+    margin-left: 0.1em;
+    margin-right: 0.1em;
+    line-height: 140%;
+}
+
+/* esp a=1; b=0; c=0; esp = 001*/
+label {
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+/* esp a=1; b=0; c=1; esp = 101*/
+div#mapaDiv {
+    width: 100%;
+    text-align: center;
+}
+
+/* esp a=1; b=0; c=1; esp = 101*/
+div#mapa {
+    display: inline-block;
+}
+
+
+.negrita {
+    font-weight: bold;
+}
+
+
+blockquote {
+    white-space: normal;
+    font-size: 1.1em;
+    font-family: "Trebuchet MS", sans-serif;
+    color: #373737;
+}

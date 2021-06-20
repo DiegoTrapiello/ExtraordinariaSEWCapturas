@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!-- saved from url=(0055)http://localhost:90/EXTRAORDINARIA/anadircomentario.php -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Datos que describen el documento -->
+    
+    <meta name="keywords" content="Hades,accion,videojuego,mitologia,dioses">
+    <meta name="description" content="Portal de comentarios de la wiki del videojuego Hades ">
+    <meta name="author" content="Diego Trapiello Mendoza">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./28_files/estilo.css">
+    <link rel="stylesheet" type="text/css" href="./28_files/posicionamiento.css">
+    <title>Hades Wiki</title>
+</head>
+
+
+<body>
+    <header>
+        <h1>Hades Wiki</h1>
+    </header>
+    <aside>
+        <nav>
+            <h2>Menu</h2>
+            <ul>
+                <li><a href="http://localhost:90/EXTRAORDINARIA/index.html" accesskey="I" tabindex="1">Salir</a></li>
+                <li><a href="http://localhost:90/EXTRAORDINARIA/vercomentariosarticulos.php" accesskey="V" tabindex="2">Ver comentarios por articulo</a></li>
+                <li><a href="http://localhost:90/EXTRAORDINARIA/vercomentariosusuarios.php" accesskey="E" tabindex="3">Ver comentarios por usuario</a></li>
+                <li><a href="http://localhost:90/EXTRAORDINARIA/vermiscomentarios.php" accesskey="R" tabindex="4">Ver mis comentarios</a></li>
+                <li><a href="http://localhost:90/EXTRAORDINARIA/anadircomentario.php" accesskey="A" tabindex="5">Añadir comentario</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main>
+        <!-- Datos con el contenido que aparece en el navegador -->
+        <h2>Añadir comentarios a articulos</h2>
+        <p>Elige el articulo del que quieras añadir un comentario</p>
+        <form method="post" action="http://localhost:90/EXTRAORDINARIA/anadircomentario.php" title="Formulario">
+                <select name="obtenerarticulos" title="Buscar Articulo">
+                <option disabled="" selected=""> --Seleccionar Articulo-- </option>
+                <option value="Ambrosia">Ambrosia</option><option value="Arco Buscacorazones">Arco Buscacorazones</option><option value="Asfodelos">Asfodelos</option><option value="Brazalete de Mirmidon">Brazalete de Mirmidon</option><option value="Diamantes">Diamantes</option><option value="Espada estigiana">Espada estigiana</option><option value="Granada en flor">Granada en flor</option><option value="Hades">Hades</option><option value="Martillo de Dedalo">Martillo de Dedalo</option><option value="Obolo de Caronte">Obolo de Caronte</option><option value="Oscuridad">Oscuridad</option><option value="Sangre de titan">Sangre de titan</option><option value="Tartaro">Tartaro</option><option value="Viejo collar de pinchos">Viejo collar de pinchos</option><option value="Zagreo">Zagreo</option><option value="Zeus">Zeus</option>                </select>
+                <br><textarea id="textareacomentario" name="textareacommentario" rows="4" cols="30"></textarea>
+                <br><input type="submit" value="Añadir comentario">
+        </form>
+
+                
+                <p>Comentario añadido correctamente</p>    </main>
+
+    <footer>
+        <h3>Más información</h3>
+        <ul>
+            <li><a href="http://localhost:90/EXTRAORDINARIA/acercade.html">Acerca de </a>
+            </li>
+            <li><a href="http://localhost:90/EXTRAORDINARIA/multimedia.html">Multimedia</a>
+            </li>
+        </ul>
+    </footer>
+
+
+
+</body></html>

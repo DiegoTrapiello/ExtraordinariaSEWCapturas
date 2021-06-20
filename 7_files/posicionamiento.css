@@ -1,0 +1,35 @@
+/* esp a=1; b=0; c=0; esp = 001*/
+body {
+    display: grid;
+    grid-gap: 0.5em;
+    grid-template-areas:
+        "header  header  header"
+        "navbar contenido contenido"
+        "footer  footer  footer";
+}
+
+/* esp a=1; b=0; c=0; esp = 001*/
+header {
+    grid-area: header;
+
+}
+
+aside {
+    grid-area: navbar;
+    padding: 1em;
+}
+
+
+/* esp a=1; b=0; c=0; esp = 001*/
+main {
+    grid-area: contenido;
+    padding: 1em;
+    margin-right: 4em;
+    margin-left: 2em;
+}
+
+/* esp a=1; b=0; c=0; esp = 001*/
+footer {
+    grid-area: footer;
+    padding: 2em;
+}
