@@ -14,7 +14,7 @@ class MyXMLReader {
             dataType: "xml",
             success: function (xml) {
                 console.log(xml);
-                reader.mapa = $("#mapaDiv").detach();
+                //reader.mapa = $("#mapaDiv").detach();
                 $(xml).find('personaje').each(function () {
                     var nombre = $(this).find('nombre').first().text();
                     if (nombre == nombreNodo) {
@@ -264,7 +264,7 @@ class MyXMLReader {
             dataType: "json",
             success: function (json) {
                 console.log(json);
-                reader.mapa = $("#mapaDiv").detach();
+                //reader.mapa = $("#mapaDiv").detach();
                 $(".mainPanel").empty();
                 reader.crearElementoDentro("h2", "Informacion API RAWG", ".mainPanel", "primerh2");
                 reader.crearElementoDentro("h3", "Géneros del juego", ".mainPanel");
@@ -303,8 +303,8 @@ class MyXMLReader {
     }
 
     mostrarDatosUsuario() {
-        reader.crearElementoDentro("h3", "Geolocalización", ".mainPanel");
-        reader.mapa.appendTo(".mainPanel");
+        // reader.crearElementoDentro("h3", "Geolocalización", ".mainPanel");
+        //reader.mapa.appendTo(".mainPanel");
         reader.crearElementoDentro("h3", "Datos de usuario", ".mainPanel");
         var ultimafecha = "Sin conexion previa";
         if (typeof localStorage.fechaAcceso !== 'undefined') {
