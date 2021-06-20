@@ -222,6 +222,7 @@ table {
     text-align: left;
     margin: auto;
     color: #373737;
+    background-color: transparent;
     font-size: 1.2em;
     width: 100%;
     max-width: 100%;
@@ -281,4 +282,5 @@ blockquote {
     font-size: 1.1em;
     font-family: "Trebuchet MS", sans-serif;
     color: #373737;
+    background-color: transparent;
 }
