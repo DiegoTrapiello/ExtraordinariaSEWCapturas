@@ -254,6 +254,11 @@ p {
     line-height: 140%;
 }
 
+/* esp a=1; b=0; c=0; esp = 001*/
+label {
+    font-family: "Trebuchet MS", sans-serif;
+}
+
 /* esp a=1; b=0; c=1; esp = 101*/
 div#mapaDiv {
     width: 100%;
